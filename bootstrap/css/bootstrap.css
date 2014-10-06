@@ -899,7 +899,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #E1E1E4;
+  background-color: #798933;
 }
 input,
 button,
@@ -4066,8 +4066,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
+  float: right;
   margin-top: 8px;
   margin-bottom: 8px;
+  margin-right: 8px;
 }
 .navbar-btn.btn-sm {
   margin-top: 10px;
@@ -4083,7 +4085,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-text {
-    float: left;
+    float: right;
     margin-right: 15px;
     margin-left: 15px;
   }
