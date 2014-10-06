@@ -20,30 +20,64 @@ and open the template in the editor.
         <div class="col-lg-pull-1">
             <img src="images/logo.png" alt="logo" width="20%"  />
         </div>
-    
-    <div class="container"> 
 
-        <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Utilisateurs</a>
-                <a class="navbar-brand" href="#">Salles</a>
-                <a class="navbar-brand" href="#">Réservations</a>
-            </div> 
-            <button type="button" class="btn btn-default navbar-btn">Login</button>
-            <p class="navbar-text">Connexion:</p>
-        </nav>
+        <div class="container"> 
 
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="input-group">
-                    <span class="input-group-addon">
-                        <input type="checkbox"> Nouvel Utilisateur
-                    </span>
- 
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
-        </div>
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Utilisateurs</a>
+                    <a class="navbar-brand" href="#">Salles</a>
+                    <a class="navbar-brand" href="#">Réservations</a>
+                </div> 
+                <button type="button" class="btn btn-default navbar-btn">Login</button>
+                <p class="navbar-text">Connexion:</p>
+            </nav>
 
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <input type="checkbox"> Nouvel Utilisateur
+                        </span>
 
-</body>
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+            </div>
+            <br>
+            <div class="responsive-table" style="margin:0px auto;max-width:700px;">
+                <table class="table table-bordered table-condensed table-body-center" >
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Mail</th>
+                            <th>Selection action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-title="Nom">Seillier</td>
+                            <td data-title="Prénom">Karl</td>
+                            <td data-title="Mail">...@gmail.com</td>
+                            <td data-title="Selection action">....</td>
+                        </tr>
+                        <tr>
+                            <td data-title="Nom">Caron</td>
+                            <td data-title="Prénom">Thomas</td>
+                            <td data-title="Mail">...@gmail.com</td>
+                            <td data-title="Selection action">....</td>
+
+                        </tr>
+                        <tr>
+                            <td data-title="Nom">Caldas</td>
+                            <td data-title="Prénom">Marc</td>
+                            <td data-title="Mail">...@gmail.com</td>
+                            <td data-title="Selection action">....</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+    </body>
 </html>
