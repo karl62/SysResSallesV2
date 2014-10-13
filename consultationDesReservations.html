@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Consultation de la liste Utilisateurs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <style type="text/css"> </style>
+        <script src="bootstrap/js/jquery-2.1.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap-datepicker.js" charset="UTF-8"></script>
+
+    </head>
+    <body> 
+
+
+
+        <div class="col-lg-pull-1">
+            <img src="images/logo.png" alt="logo" width="20%"  />
+        </div>
+
+        <div class="container"> 
+
+            <nav class="navbar navbar-default">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+
+
+
+
+
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Utilisateurs <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Ajouter</a></li>
+                                        <li><a href="#">Consulter</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Salles <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Ajouter</a></li>
+                                        <li><a href="#">Consulter</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réservations <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Ajouter</a></li>
+                                        <li><a href="#">Consulter</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+                            <button type="button" class="btn btn-default navbar-btn">Login</button>
+                            <p class="navbar-text">Connexion:</p>
+
+
+
+
+
+                        </div>
+                    </div>
+                </nav>
+
+            </nav>
+            
+            <div class="input-group date">
+               Choix du jour :  <input type="date" class="form-control"/>
+            </div>
+
+
+            <div class="dropdown">
+                Choix de la salle : <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Choix Salle
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">LAB3</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">LAB4</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">LAB5</a></li>
+
+                </ul>
+            </div>
+            <div class="dropdown">
+                Choix Utilisateur : <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Choix Utilisateur
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Thomas</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Marc</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Karl</a></li>
+
+                </ul>
+            </div>
+            <br>
+            <div class="responsive-table" style="margin:0px auto;max-width:700px;">
+                <table class="table table-bordered table-condensed table-body-center" >
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prénom</th>
+                            <th>Mail</th>
+                            <th>Selection action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-title="Nom">Seillier</td>
+                            <td data-title="Prénom">Karl</td>
+                            <td data-title="Mail">...@gmail.com</td>
+                            <td data-title="Selection action">....</td>
+                        </tr>
+                        <tr>
+                            <td data-title="Nom">Caron</td>
+                            <td data-title="Prénom">Thomas</td>
+                            <td data-title="Mail">...@gmail.com</td>
+                            <td data-title="Selection action">....</td>
+
+                        </tr>
+                        <tr>
+                            <td data-title="Nom">Caldas</td>
+                            <td data-title="Prénom">Marc</td>
+                            <td data-title="Mail">...@gmail.com</td>
+                            <td data-title="Selection action">....</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </body>
+</html>
