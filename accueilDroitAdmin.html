@@ -10,10 +10,11 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-        <style type="text/css">
+        <style type="text/css"></style>
+        <script src="bootstrap/js/jquery-2.1.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
 
 
-        </style>
 
     </head>
     <body> 
@@ -21,26 +22,57 @@ and open the template in the editor.
             <img src="images/logo.png" alt="logo" width="20%"  />
         </div>
         <div class="container"> 
-        </header>
-        <nav class="navbar navbar-default">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Utilisateurs</a>
-                <a class="navbar-brand" href="#">Salles</a>
-                <a class="navbar-brand" href="#">Réservations</a>
-
-            </div> 
-
-            <button type="button" class="btn btn-default navbar-btn">Login</button>  
-            <p class="navbar-text">Nom utilisateur :</p>
-
-        </nav>
+            <nav class="navbar navbar-default">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
 
 
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Utilisateurs <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Ajouter</a></li>
+                                        <li><a href="#">Consulter</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Salles <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Ajouter</a></li>
+                                        <li><a href="#">Consulter</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réservations <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Ajouter</a></li>
+                                        <li><a href="#">Consulter</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
+                                    </ul>
+                                </li>
 
-        <div class="container"> 
+                            </ul>
+                            <button type="button" class="btn btn-default navbar-btn">Login</button>
+                            <p class="navbar-text">Connexion:</p>
 
-        </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </nav>
 
 
-</body>
+
+            <div class="container"> 
+
+            </div>
+
+
+    </body>
 </html>
