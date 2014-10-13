@@ -31,7 +31,7 @@ and open the template in the editor.
                     <div class="container-fluid">
 
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li class="dropdown">
@@ -39,8 +39,8 @@ and open the template in the editor.
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Ajouter</a></li>
                                         <li><a href="#">Consulter</a></li>
-                                        <li><a href="#">Mettre a jour</a></li>
-                                        <li><a href="#">supprimer</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -48,8 +48,8 @@ and open the template in the editor.
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Ajouter</a></li>
                                         <li><a href="#">Consulter</a></li>
-                                        <li><a href="#">Mettre a jour</a></li>
-                                        <li><a href="#">supprimer</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -57,17 +57,17 @@ and open the template in the editor.
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Ajouter</a></li>
                                         <li><a href="#">Consulter</a></li>
-                                        <li><a href="#">Mettre a jour</a></li>
-                                        <li><a href="#">supprimer</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
                                     </ul>
                                 </li>
-                                
-                            </ul>
-<button type="button" class="btn btn-default navbar-btn">Login</button>
-                                <p class="navbar-text">Connexion:</p>
 
-                        </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container-fluid -->
+                            </ul>
+                            <button type="button" class="btn btn-default navbar-btn">Login</button>
+                            <p class="navbar-text">Connexion:</p>
+
+                        </div>
+                    </div>
                 </nav>
 
             </nav>
@@ -77,10 +77,22 @@ and open the template in the editor.
                     <div class="input-group">
                         <span class="input-group-addon">
                             <input type="checkbox"> Nouvel Utilisateur
-                        </span>
-
-                    </div><!-- /input-group -->
-                </div><!-- /.col-lg-6 -->
+                        </span> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                Choix Utilisateur : <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Choix Utilisateur
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Thomas</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Marc</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Karl</a></li>
+                    
+                </ul>
             </div>
             <br>
             <div class="responsive-table" style="margin:0px auto;max-width:700px;">
@@ -117,19 +129,7 @@ and open the template in the editor.
                     </tbody>
                 </table>
             </div>
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                    Dropdown
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-                    <li role="presentation" class="divider"></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-                </ul>
-            </div>
+            
         </div>
     </body>
 </html>
