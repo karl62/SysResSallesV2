@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Faire une réservation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <style type="text/css"> </style>
+        <script src="bootstrap/js/jquery-2.1.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+
+
+    </head>
+    <body> 
+
+
+
+        <div class="col-lg-pull-1">
+            <img src="images/logo.png" alt="logo" width="20%"  />
+        </div>
+
+        <div class="container"> 
+
+            <nav class="navbar navbar-default">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">                              
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Salles <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Consulter</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Réservations <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Ajouter</a></li>
+                                        <li><a href="#">Consulter</a></li>
+                                        <li><a href="#">Mettre à jour</a></li>
+                                        <li><a href="#">Supprimer</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default navbar-btn"><i class="icon-large glyphicon glyphicon-off"></i></button>
+                            <p class="navbar-text">Nom utilisateur</p>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <input type="checkbox"> Voir les réservations en cours
+                        </span> 
+                    </div>
+                    <br>
+                    <div class="dropdown">
+                Choix de la salle : <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    ComboBox
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Salle 1</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Salle 2</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Salle 3</a></li>
+
+                </ul>
+            </div>
+                    <br>
+            <div class="input-group date">
+            Date:<input type="date" class="form-control"/>
+            </div>
+                    <br>
+            <div class="bfh-timepicker">
+                Heure d'arrivée:<input type="time" class="form-control">
+            </div>
+                    <br>
+                    <div class="bfh-timepicker">
+                Heure de départ:<input type="time" class="form-control">
+            </div>
+                    
+                </div>
+             <button>Vérifier la disponibiliter</button> 
+                
+
+        </div>
+        
+            <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+           <div class="form-group">
+           <input type="text" class="form-control input-lg" value="Description/but de la réservation">
+            </div>     
+                  <br>
+                  <button>Périodicité</button>
+                  </br>
+         <fieldset>
+	<legend>Périodicité</legend>
+	<div id="div_search_type" class="control-group">
+	 <div class="input-group date">
+            Date fin de périodicité :<input type="date" class="form-control"/>
+            </div>
+		<legend class="control-label">Jour</legend>
+		<div class="controls">
+                    <input type="checkbox" name="p_search_type" id="p_search_type1" value="">not selected
+                    </br>
+			<input type="checkbox" name="p_search_type" id="p_search_type2" value="">selected
+                                            </br>
+
+			<input type="checkbox" name="p_search_type" id="p_search_type3" value="">indeterminate
+                                            </br>
+
+                        <input type="checkbox" name="p_search_type" id="p_search_type1" value="">disabled
+                                            </br>
+
+			<input type="checkbox" name="p_search_type" id="p_search_type2" value="">disabled selected                    </br>
+
+			<input type="checkbox" name="p_search_type" id="p_search_type3" value="">disabled indeterminate
+                                            </br>
+                                            </br>
+		<div class="controls">
+		Type périodicité :<input type="radio" name="p_search_type" id="p_search_type1" value="checked"/>option 1
+                </div>
+                                           
+                           <div class="dropdown">
+                Intervalle de semaines : <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    ComboBox
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    
+                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">4</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">5</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">6</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">7</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">8</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">9</a></li>
+                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">10</a></li>
+                </ul>
+                                   
+                                                
+                                            </div>
+	</fieldset>
+            
+    </div>
+
+              </div>
+              </div>   
+            
+        </div>
+        
+    </body>
+</html>
